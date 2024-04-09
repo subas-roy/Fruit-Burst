@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Burst</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="container mx-auto lg:px-24 px-8 py-8">
+        <div class="navbar bg-red-400 rounded-full px-8">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Shop</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <div class="space-x-4 text-white text-lg font-semibold hidden lg:flex">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Shop</a>
+                <a href="#">Contact</a>
+              </div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <img src="images/logo.png" alt="">
+              <h6 class="text-white text-2xl font-semibold">Fruit Burst</h6>
+            </div>
+            <div class="navbar-end hidden md:flex ">
+              <div class="bg-white flex px-6 py-3 rounded-full">
+                <input class="outline-none" type="text" placeholder="Search">
+                <img src="images/search.png" alt="">
+              </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
